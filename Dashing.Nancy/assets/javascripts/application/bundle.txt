@@ -1,0 +1,9 @@
+﻿rickshaw.min.js
+jquery.knob.js
+d3.v2.min.js
+dashing.gridster.coffee
+application.coffee
+
+[references]
+~/assets/javascripts/dashing
+~/assets/javascripts/gridster

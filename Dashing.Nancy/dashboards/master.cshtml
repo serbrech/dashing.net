@@ -1,0 +1,35 @@
+@{
+    
+    Bundles.Reference("assets/javascripts/dashing");
+    Bundles.Reference("assets/javascripts/application");
+    Bundles.Reference("widgets");
+    Bundles.Reference("assets/stylesheets");
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>
+    @RenderSection("title")
+</title>
+
+<!-- The javascript and css are managed by sprockets. The files can be found in the /assets folder-->
+@Bundles.RenderStylesheets()
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
+<link rel="icon" href="/assets/favicon.ico">
+
+@Bundles.RenderScripts()
+
+</head>
+<body>
+<div id="container">
+    @RenderBody()
+</div>
+
+</body>
+</html>
