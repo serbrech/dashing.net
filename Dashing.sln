@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashing", "Dashing.Nancy\Dashing.csproj", "{25577205-F6AF-4170-9858-26724F679CF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashing", "Dashing\Dashing.csproj", "{25577205-F6AF-4170-9858-26724F679CF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashing.Tests", "Dashing.Nancy.Tests\Dashing.Tests.csproj", "{19EFEC53-829D-483B-94BA-E78D1A8B1CBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashing.Tests", "Dashing.Tests\Dashing.Tests.csproj", "{19EFEC53-829D-483B-94BA-E78D1A8B1CBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
